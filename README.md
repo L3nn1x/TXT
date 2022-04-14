@@ -7,6 +7,6 @@
   if file.txt contains [1,2,3] is a list with intigers 
   if file.txt contains ['1', '2', '3'] is a list with strings
   
-#NOTE:
+# NOTE:
   is like the syntax of python, if you miss a quote in the string, it will cause an error
   
