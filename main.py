@@ -32,12 +32,8 @@ def dataType(path=str):
                     self.value = data()[1]
             return data()[0]
 
-
-
     ftdt = FTDT()
     analyze = ftdt.analyzeFileText(path)
     if analyze:
         print(ftdt.value)
         return analyze
-
-print(dataType('C:\\tests\\expe.txt'))
