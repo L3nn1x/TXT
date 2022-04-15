@@ -10,7 +10,7 @@ class TXT:
             self.size = None
             self.bytes = None
             self.asciiValues = None
-            self.dataType = None
+            self.dataType = self.dataType(path_)
 
 
     def dataType(self, file=str):
